@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F14EBB21FB92D8C000E023E /* Sarniadetailaddmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F14EBB11FB92D8C000E023E /* Sarniadetailaddmission.swift */; };
 		0F847D691FB8264F00D230EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F847D681FB8264F00D230EC /* AppDelegate.swift */; };
 		0F847D6B1FB8264F00D230EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F847D6A1FB8264F00D230EC /* ViewController.swift */; };
 		0F847D6E1FB8264F00D230EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F847D6C1FB8264F00D230EC /* Main.storyboard */; };
@@ -14,6 +15,21 @@
 		0F847D731FB8264F00D230EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F847D711FB8264F00D230EC /* LaunchScreen.storyboard */; };
 		0F847D7E1FB8264F00D230EC /* CollegeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F847D7D1FB8264F00D230EC /* CollegeTests.swift */; };
 		0F847D891FB8264F00D230EC /* CollegeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F847D881FB8264F00D230EC /* CollegeUITests.swift */; };
+		0F847D991FB835EF00D230EC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F847D981FB835EF00D230EC /* File.swift */; };
+		0F847D9B1FB83C8600D230EC /* CollegeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F847D9A1FB83C8600D230EC /* CollegeListTableViewController.swift */; };
+		0F847D9D1FB83CA000D230EC /* CollegeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F847D9C1FB83CA000D230EC /* CollegeTableViewCell.swift */; };
+		0F8F540F1FB8B4F10060D3C3 /* Sarnia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F540E1FB8B4F10060D3C3 /* Sarnia.swift */; };
+		0F8F54111FB8B67B0060D3C3 /* Toronto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F54101FB8B67B0060D3C3 /* Toronto.swift */; };
+		0F8F54131FB8B6BA0060D3C3 /* Mississauga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F54121FB8B6BA0060D3C3 /* Mississauga.swift */; };
+		0F8F54151FB8BB8F0060D3C3 /* SarniaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F54141FB8BB8F0060D3C3 /* SarniaTableViewController.swift */; };
+		0F8F54171FB8BC200060D3C3 /* TorontoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F54161FB8BC200060D3C3 /* TorontoTableViewController.swift */; };
+		0F8F54191FB8BC380060D3C3 /* MississaugaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F54181FB8BC380060D3C3 /* MississaugaTableViewController.swift */; };
+		0F8F541B1FB8BC6B0060D3C3 /* SarniaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F541A1FB8BC6B0060D3C3 /* SarniaTableViewCell.swift */; };
+		0F8F541D1FB8BC810060D3C3 /* TorontoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F541C1FB8BC810060D3C3 /* TorontoTableViewCell.swift */; };
+		0F8F541F1FB8BCB90060D3C3 /* MisssissaugaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F541E1FB8BCB90060D3C3 /* MisssissaugaTableViewCell.swift */; };
+		0F8F54211FB8EF160060D3C3 /* SarniaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F54201FB8EF160060D3C3 /* SarniaViewController.swift */; };
+		0F8F54231FB8EF310060D3C3 /* TorontoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F54221FB8EF310060D3C3 /* TorontoViewController.swift */; };
+		0F8F54251FB8EF4C0060D3C3 /* MississaugaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F54241FB8EF4C0060D3C3 /* MississaugaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F14EBB11FB92D8C000E023E /* Sarniadetailaddmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sarniadetailaddmission.swift; sourceTree = "<group>"; };
 		0F847D651FB8264F00D230EC /* College.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = College.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F847D681FB8264F00D230EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F847D6A1FB8264F00D230EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,22 @@
 		0F847D841FB8264F00D230EC /* CollegeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F847D881FB8264F00D230EC /* CollegeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeUITests.swift; sourceTree = "<group>"; };
 		0F847D8A1FB8264F00D230EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F847D971FB827F700D230EC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0F847D981FB835EF00D230EC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0F847D9A1FB83C8600D230EC /* CollegeListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeListTableViewController.swift; sourceTree = "<group>"; };
+		0F847D9C1FB83CA000D230EC /* CollegeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeTableViewCell.swift; sourceTree = "<group>"; };
+		0F8F540E1FB8B4F10060D3C3 /* Sarnia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sarnia.swift; sourceTree = "<group>"; };
+		0F8F54101FB8B67B0060D3C3 /* Toronto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toronto.swift; sourceTree = "<group>"; };
+		0F8F54121FB8B6BA0060D3C3 /* Mississauga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mississauga.swift; sourceTree = "<group>"; };
+		0F8F54141FB8BB8F0060D3C3 /* SarniaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarniaTableViewController.swift; sourceTree = "<group>"; };
+		0F8F54161FB8BC200060D3C3 /* TorontoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorontoTableViewController.swift; sourceTree = "<group>"; };
+		0F8F54181FB8BC380060D3C3 /* MississaugaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MississaugaTableViewController.swift; sourceTree = "<group>"; };
+		0F8F541A1FB8BC6B0060D3C3 /* SarniaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarniaTableViewCell.swift; sourceTree = "<group>"; };
+		0F8F541C1FB8BC810060D3C3 /* TorontoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorontoTableViewCell.swift; sourceTree = "<group>"; };
+		0F8F541E1FB8BCB90060D3C3 /* MisssissaugaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisssissaugaTableViewCell.swift; sourceTree = "<group>"; };
+		0F8F54201FB8EF160060D3C3 /* SarniaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarniaViewController.swift; sourceTree = "<group>"; };
+		0F8F54221FB8EF310060D3C3 /* TorontoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorontoViewController.swift; sourceTree = "<group>"; };
+		0F8F54241FB8EF4C0060D3C3 /* MississaugaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MississaugaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +114,7 @@
 				0F847D7C1FB8264F00D230EC /* CollegeTests */,
 				0F847D871FB8264F00D230EC /* CollegeUITests */,
 				0F847D661FB8264F00D230EC /* Products */,
+				0F847D961FB827F700D230EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +134,25 @@
 				0F847D681FB8264F00D230EC /* AppDelegate.swift */,
 				0F847D6A1FB8264F00D230EC /* ViewController.swift */,
 				0F847D6C1FB8264F00D230EC /* Main.storyboard */,
+				0F14EBB11FB92D8C000E023E /* Sarniadetailaddmission.swift */,
+				0F8F54141FB8BB8F0060D3C3 /* SarniaTableViewController.swift */,
+				0F8F54201FB8EF160060D3C3 /* SarniaViewController.swift */,
+				0F8F54221FB8EF310060D3C3 /* TorontoViewController.swift */,
+				0F8F54241FB8EF4C0060D3C3 /* MississaugaViewController.swift */,
+				0F8F54161FB8BC200060D3C3 /* TorontoTableViewController.swift */,
+				0F8F54181FB8BC380060D3C3 /* MississaugaTableViewController.swift */,
+				0F8F541A1FB8BC6B0060D3C3 /* SarniaTableViewCell.swift */,
+				0F8F541C1FB8BC810060D3C3 /* TorontoTableViewCell.swift */,
+				0F8F541E1FB8BCB90060D3C3 /* MisssissaugaTableViewCell.swift */,
+				0F847D9A1FB83C8600D230EC /* CollegeListTableViewController.swift */,
+				0F847D9C1FB83CA000D230EC /* CollegeTableViewCell.swift */,
+				0F847D981FB835EF00D230EC /* File.swift */,
 				0F847D6F1FB8264F00D230EC /* Assets.xcassets */,
 				0F847D711FB8264F00D230EC /* LaunchScreen.storyboard */,
 				0F847D741FB8264F00D230EC /* Info.plist */,
+				0F8F540E1FB8B4F10060D3C3 /* Sarnia.swift */,
+				0F8F54101FB8B67B0060D3C3 /* Toronto.swift */,
+				0F8F54121FB8B6BA0060D3C3 /* Mississauga.swift */,
 			);
 			path = College;
 			sourceTree = "<group>";
@@ -123,6 +173,14 @@
 				0F847D8A1FB8264F00D230EC /* Info.plist */,
 			);
 			path = CollegeUITests;
+			sourceTree = "<group>";
+		};
+		0F847D961FB827F700D230EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F847D971FB827F700D230EC /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +317,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8F54111FB8B67B0060D3C3 /* Toronto.swift in Sources */,
+				0F8F54151FB8BB8F0060D3C3 /* SarniaTableViewController.swift in Sources */,
+				0F8F54251FB8EF4C0060D3C3 /* MississaugaViewController.swift in Sources */,
 				0F847D6B1FB8264F00D230EC /* ViewController.swift in Sources */,
+				0F847D9D1FB83CA000D230EC /* CollegeTableViewCell.swift in Sources */,
+				0F8F54171FB8BC200060D3C3 /* TorontoTableViewController.swift in Sources */,
+				0F847D9B1FB83C8600D230EC /* CollegeListTableViewController.swift in Sources */,
+				0F14EBB21FB92D8C000E023E /* Sarniadetailaddmission.swift in Sources */,
+				0F847D991FB835EF00D230EC /* File.swift in Sources */,
+				0F8F54131FB8B6BA0060D3C3 /* Mississauga.swift in Sources */,
+				0F8F541D1FB8BC810060D3C3 /* TorontoTableViewCell.swift in Sources */,
 				0F847D691FB8264F00D230EC /* AppDelegate.swift in Sources */,
+				0F8F54231FB8EF310060D3C3 /* TorontoViewController.swift in Sources */,
+				0F8F541B1FB8BC6B0060D3C3 /* SarniaTableViewCell.swift in Sources */,
+				0F8F541F1FB8BCB90060D3C3 /* MisssissaugaTableViewCell.swift in Sources */,
+				0F8F540F1FB8B4F10060D3C3 /* Sarnia.swift in Sources */,
+				0F8F54191FB8BC380060D3C3 /* MississaugaTableViewController.swift in Sources */,
+				0F8F54211FB8EF160060D3C3 /* SarniaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
